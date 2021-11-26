@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    overflow-x: hidden;
+}
+
+.nav__main__header {
+    /*display: flex;*/
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    /*background-color: black;*/
+
+}
+
+.nav__ul {
+    display: flex;
+}
+
+.nav__main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav__search__form {
+    display: flex;
+    width: 100%;
+}
+
+.nav__search__form form {
+    display: flex;
+    width: 100%;
+}
+
+.nav__ul__li {
+    padding: 8px;
+    background-color: black;
+    margin-right: 4em;
+}
+
+.nav__ul_li_a{
+padding: 5px;
+background-color: white;
+display: block;
+width: 100%;
+}
